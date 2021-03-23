@@ -1,7 +1,7 @@
 # Kanaloa
 This is the official Github for team Kanaloa.  Our main website can be found [here](http://rip.eng.hawaii.edu/research/unmanned-x-systems/).
 
-Do not commit edits to the Master branch **until they have been fully vetted in hardware**!
+Do not commit edits to the Master branch **until they have been fully vetted in hardware**! And approved by Dr. Trimble or the appropriate graduate student mentor.
 
 ## 1. Directory Listing
  - `Documentation`: tutorials, primer documents, and detailed notes on specific topics.
@@ -42,11 +42,11 @@ Issues support styling with Markdown.
 ### 4.2. Creating an Issue
 To create an issue, click on the `Issues` tab or [here](https://github.com/riplaboratory/Kanaloa/issues). On this page, click on `New issue`. Fill out the fields on the right-hand side. Below is a brief description of what should be done. You can then click on `Submit new issue` to finish creating it. 
 
-- `Assignees`: Member assigned the issue. It can be left blank if it is still unknown and the task is just currently being planned. Typically, there should only be one assignee as task should be able to completed individually.
-- `Labels`: There are many pre-made labels. Select the one that is appropriate for your issue. New labels can be created by clicking `Edit labels`.
+- `Assignees`: Team Member assigned to and responsible for the issue. Typically, there should only be one assignee. As often as possible, tasks should be focused enough to be completed by a single individual. It can be left blank if it is still unknown and the task is just currently being planned. 
+- `Labels`: There are many pre-made labels. Select the one that is appropriate for your issue. Pre-made labels should be used if possible. New labels can be created by clicking `Edit labels`.
 - `Projects`: Assign the issue to a project board if applicable. Projects will be discussed in `Section 6`.
 
-Assigning this information will be easy to track who is working on the issue, what the issue is, and what the issue is contributing towards. Once an issue is created, a new thread is made that other members can also comment on if help is needed.
+Properly assigning this information will simplify tracking who is working on the issue, what the issue is, and what the issue is contributing towards. Once an issue is created, a new thread is made that other members can also comment on if help is needed.
 
 ### 4.3. Closing an Issue
 An issue can be closed once the task has been completed. You will need to got back to the [issues page](https://github.com/riplaboratory/Kanaloa/issues). If there is a lot of issues currently open, click on the `Assignee` field and select your name so that you can filter it to issues assigned to you. Click on your issue and for most scenarios, you can click on `Close issue`. 
@@ -56,7 +56,7 @@ An issue can be closed once the task has been completed. You will need to got ba
 - If the team determines the issue is not worth pursuing, leave a comment and close the issue.  
 
 ## 5. Branch Usage Convention
-Branches are used to create an instance of the Master branch. This feature allows you to make enhancements, fix bugs, or try out new ideas without messing up the existing working files. Whenever working on code, work should be done on a separate branch to help avoid merge conflicts or buggy code from being in master branch. The master branch should contain only the most up-to-date working files. We recommend getting familiar with [GitHub Desktop](https://docs.github.com/en/desktop) so that you can see which branch you are working on and will be making commits to.
+Branches are used to create an instance of the Master branch. This feature allows you to make enhancements, fix bugs, or try out new ideas without messing up the existing working files. Whenever working on code, work should be done on a separate branch to help avoid merge conflicts or buggy code from being in master branch. The master branch should contain only the most up-to-date working files. At all times the master branch must be fully operaable and ready to load to a vehicle. We recommend getting familiar with [GitHub Desktop](https://docs.github.com/en/desktop) so that you can see which branch you are working on and will be making commits to.
 
 ### 5.1. Branch Naming Convention
 Your branch name should be short but also descriptive. For example, when updating this Standard Operating Procedure (SOP), the branch name is `update-github-sop`. The only work being done in this branch is work related to this SOP (`README.md`). 
